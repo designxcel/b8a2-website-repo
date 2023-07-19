@@ -1,0 +1,467 @@
+* {
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar style */
+/* .main-section{
+    max-width: 1440px;
+    margin: 0 auto;
+} */
+.navbar {
+    height: 130px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0px 4px 30px 0px rgba(46, 45, 45, 0.05);
+    /* border: 1px solid tomato; */
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: 45px auto;
+}
+
+.nav-title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-heading {
+    color: #0B0223;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.nav-capital {
+    color: #FF42A5;
+}
+
+.menus ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menus li {
+    list-style: none;
+}
+
+.menus a {
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-right: 30px;
+}
+
+.follow-btn {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 20px 25px 18px 25px;
+    text-align: center;
+}
+
+.fa-youtube {
+    color: #F61C0D;
+    width: 33px;
+    height: 24px;
+}
+
+/* banner portion style */
+
+.banner-content-left {
+    background-image: url('/images/Group 14.png');
+    width: 901px;
+    height: 690px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* width: 50%; */
+    /* border: 1px solid tomato; */
+
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 0; */
+}
+
+.banner-content-title {
+    color: #0B0223;
+    text-align: left;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 150px;
+    margin-left: 240px;
+}
+
+.banner-content-main-title {
+    text-align: left;
+    font-size: 6rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 240px;
+}
+
+.contents-tag {
+    margin-left: 240px;
+}
+
+.contents-tag p {
+    color: #534C64;
+    text-align: left;
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-transform: lowercase;
+    margin-bottom: 18px;
+}
+
+.contents-tag i {
+    margin-right: 8px;
+}
+
+.btns {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.btn-primary {
+    background: #F948B2;
+    color: white;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 48px;
+
+}
+
+.btn-secondary {
+    background: #4EC5F7;
+    color: white;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 48px;
+}
+
+.banner-content-right {
+    width: 50%;
+}
+
+/* we are gamer section */
+.we-are-gamer {
+    display: flex;
+    max-width: 1440px;
+    margin: 100px auto;
+    justify-content: space-between;
+    text-align: right;
+}
+
+.gamer-title {
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gamer-content {
+    margin-top: 50px;
+}
+
+.gamer-content p {
+    width: 520px;
+    color: #534C64;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.quote {
+    margin-top: 50px;
+}
+.online-games {
+    max-width: 1440px;
+    margin: 100px auto;
+}
+.online-title {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.online-desc {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 25px;
+
+}
+.online-section {
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.online-card{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* online games */
+/* .online-games {
+    max-width: 1440px;
+    margin: 100px auto;
+}
+
+.online-title {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.online-section {
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.online-desc {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 25px;
+
+}
+
+.online-desc1 {
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.online-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.online-card p {
+    width: 280px;
+
+} */
+
+
+/* online games end */
+
+/* play portion style */
+
+.play-concept {
+    display: flex;
+    max-width: 1440px;
+    justify-content: space-around;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.play-left {
+    text-align: right;
+    margin-top: -350px;
+}
+
+.play-title {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.play-title-special {
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-left p {
+    width: 353px;
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.main-image {
+    width: 634px;
+    height: 650px;
+}
+
+.bottom-image {
+    width: 340px;
+    position: relative;
+    bottom: 300px;
+    left: -150px;
+}
+
+.game-section {
+    height: 450px;
+    background: rgba(248, 216, 239, 0.5);
+    /* border: 1px solid black; */
+    /* margin-top: -100px; */
+}
+
+.game-section {
+    margin-top: -200px;
+}
+
+.first-row {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-row div {
+    display: flex;
+    background: white;
+    border-radius: 50px;
+    align-items: center;
+    padding: 10px 30px 10px 15px;
+    margin: 50px 10px 0px 10px;
+
+}
+
+.first-row div:hover{
+    border: 1px solid salmon;
+    color: #F948B2;
+}
+
+.first-row h3{
+    margin-left: 8px;
+}
+
+/* .second-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} */
+
+/* .second-row div {
+    display: flex;
+    background: white;
+    border-radius: 50px;
+    align-items: center;
+    padding: 10px 30px 10px 15px;
+    margin: 0px 10px;
+
+} */
+
+
+footer {
+    height: 500px;
+    background-color: #0B0223;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+}
+
+.footer-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.footer-title {
+    color: white;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.higlight-text {
+    color: #FF42A5;
+}
+
+.footer-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.footer-social-media {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.footer-menu-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.footer-menu-2 a {
+    text-decoration: none;
+    color: lightgrey;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.footer-bottom {
+    text-align: center;
+    color: lightgrey;
+    font-weight: 400;
+    margin-top: 60px;
+}
