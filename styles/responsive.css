@@ -74,6 +74,11 @@
         width: 350px;
         margin: 50px auto;
     }
+
+    .container{
+        /* display: block; */
+        width: 85%;
+      }
     .online-card{
         flex-direction: column;
         justify-content: center;
@@ -186,7 +191,10 @@ footer{
         width: 100%;
 
     }
-
+    .container{
+        width: 100%;
+        
+      }
     .we-are-gamer {
         flex-direction: column;
     }
